@@ -1,0 +1,2 @@
+cat /etc/passwd
+copie dans un fichier pour john

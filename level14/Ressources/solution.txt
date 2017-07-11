@@ -1,0 +1,13 @@
+gdb /bin/getflag
+
+dissas main (reperer l endroit ou le flag est afficher)
+
+b main
+
+run
+
+set $eip =0x8048de5
+
+n
+
+(c est normale que ca fasse n importe quoi le token et dedans) 

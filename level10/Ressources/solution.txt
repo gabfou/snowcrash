@@ -1,0 +1,15 @@
+copier toute les autre ressource dans /tmp/
+chmod 777 tout ca
+ouvrir 2 terminal
+dans le premier
+
+python /tmp/server.py localhost
+
+dans le deuxieme
+
+sh /tmp/niark.sh &
+
+puis 
+./level10 /tmp/test123 127.0.0.1
+
+jusqu a que ca marche (relancer le serveur est parfois necessaire)

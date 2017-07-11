@@ -1,0 +1,15 @@
+copier lib.c dans tmp
+
+cd /tmp
+
+gcc  -shared -o /tmp/fakesuid.so /tmp/lib.c
+
+cd ~
+
+export LD_PRELOAD=/tmp/fakesuid.so 
+
+gdb level13
+
+run
+
+(the  token is the flag)
